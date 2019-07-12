@@ -11,5 +11,5 @@ function loadFile(filePath) {
 }
 xml = loadFile("api_news.xml");
 news = parser.parseFromString(xml,"text/xml");
-document.querySelector("#news_header").innerHTML = news.getElementsByTagName("title");
-document.querySelector("#news_content").innerHTML = news.getElemetsByTagName("content");
+document.querySelector("#news_header").innerHTML = news.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+document.querySelector("#news_content").innerHTML = news.getElementsByTagName("content")[0].childNodes[0].nodeValue;
