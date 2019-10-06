@@ -2,10 +2,17 @@
     "minimumVersion": 1,
     "packages": [
         {
-            "name": "ahxgamma",
-            "title": "Modpack AhxGamma",
-            "version": "v1.1",
-            "location": "ahxgamma.json",
+            "name": "Light Modpack",
+            "title": "Light Modpack",
+            "version": "20100223",
+            "location": "lightpack.json",
+            "priority": 1
+        },
+        {
+            "name": "Monster Modpack",
+            "title": "Monster Modpack",
+            "version": "20100223",
+            "location": "monsterpack.json",
             "priority": 1
         }
     ]
